@@ -1,4 +1,4 @@
-# ⚙️ Toils in the Project & How We Reduced Them
+# Toils in the Project & How We Reduced Them
 
 Toils in the project are repetitive, manual tasks that don’t contribute long-term value. Here’s how we identified and automated or eliminated them:
 
