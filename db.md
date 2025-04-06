@@ -97,13 +97,13 @@ This backend database consists of tables designed to support core functionalitie
 
 ---
 
-## 🖼️ ER Diagram
+## ER Diagram
 
 ![Database Schema](./Uber-ER-diagram.png)
 
 ---
 
-## ✅ Summary
+## Summary
 
 | Category             | Tables Included                                                                 |
 |----------------------|----------------------------------------------------------------------------------|
