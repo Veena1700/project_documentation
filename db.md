@@ -48,7 +48,14 @@ This backend database consists of tables designed to support core functionalitie
 
 ---
 
-## 3. Rides & Locations
+## 3. Vehicle
+
+- **vehicle**  
+  Stores all registered vehicle details like type, number, model, and captain association.
+   
+---
+
+## 4. Rides & Locations
 
 - **ride**  
   Main table capturing ride details: user, captain, pickup, destination, distance, duration, status, fare, OTP, vehicle type.
@@ -58,7 +65,7 @@ This backend database consists of tables designed to support core functionalitie
 
 ---
 
-## 4. Payments & Transactions
+## 5. Payments & Transactions
 
 - **payment**  
   Payment made for a ride including amount, mode (cash/UPI/card), and status.
@@ -74,7 +81,7 @@ This backend database consists of tables designed to support core functionalitie
 
 ---
 
-## 5. Ratings & Reviews
+## 6. Ratings & Reviews
 
 - **rating**  
   User's review and star rating for a ride.
@@ -90,7 +97,7 @@ This backend database consists of tables designed to support core functionalitie
 
 ---
 
-## 6. Auth & Security
+## 7. Auth & Security
 
 - **blacklist_token**  
   Tokens marked as expired/blacklisted for security and session management.
@@ -109,6 +116,7 @@ This backend database consists of tables designed to support core functionalitie
 |----------------------|----------------------------------------------------------------------------------|
 | Users                | user, user_profile, user_activity, ride_history, favorite_locations              |
 | Captains             | captain, captain_profile, captain_activity, captain_earnings, captain_ratings, captain_ride_history, captain_payments_history |
+| Vehicles             | vehicle                                                                   |
 | Rides                | ride, location                                                                   |
 | Payments             | payment, transaction, ride_invoice, ride_discount                                |
 | Ratings              | rating, rating_detail, rating_response, rating_category                          |
